@@ -20,8 +20,8 @@ cd hello-world
 ./gradlew build      # Mod-JAR erstellen
 ```
 
-Unter Windows `gradlew.bat` statt `./gradlew` verwenden. Beim Start erscheint `Hello, Minecraft world!` im Log bzw. in der Konsole. Das fertige Mod-JAR liegt in `hello-world/build/libs/` (nicht das `-sources.jar`). Zur Installation werden Minecraft Java Edition 26.1 und der passende Fabric Loader benötigt; das Mod-JAR kommt in den `mods`-Ordner des Fabric-Profils.
+Unter Windows `gradlew.bat` statt `./gradlew` verwenden. Beim Start erscheint `Hello, Minecraft world!` im Log bzw. in der Konsole. Das fertige Mod-JAR liegt in `hello-world/build/libs/` (nicht das `-sources.jar`). Zur Installation werden Minecraft Java Edition 26.3 und der passende Fabric Loader benötigt; das Mod-JAR kommt in den `mods`-Ordner des Fabric-Profils.
 
 Versionen und Mod-Koordinaten stehen in `hello-world/gradle.properties`. Weitere Mods können als unabhängige Projekte neben `hello-world` angelegt werden.
 
-Weitere Informationen: [Fabric-Dokumentation](https://docs.fabricmc.net/develop/) und [Fabric-Beispielprojekt](https://github.com/FabricMC/fabric-example-mod/tree/26.1).
+Weitere Informationen: [Fabric-Dokumentation](https://docs.fabricmc.net/develop/) und [Fabric-Beispielprojekt](https://github.com/FabricMC/fabric-example-mod/tree/26.3).

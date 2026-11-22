@@ -1,0 +1,20 @@
+# Gradle and generated build output
+.gradle/
+build/
+out/
+
+# Fabric development environment
+run/
+.fabric/
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
